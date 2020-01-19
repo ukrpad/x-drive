@@ -1,0 +1,95 @@
+body { 
+	text-decoration: none;
+	user-select: none;
+	background-color:#232e3c; 
+	font-size: 200%;
+	font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+	text-align: left;
+	color: #C8D1C9;
+} 
+
+div {
+	position: absolute;
+	/*background-color: white;*/
+	border-style: solid;
+	border-width: 2px;
+	border-color: #fb751b;
+}
+
+p {
+	margin-top: 1%;
+}
+
+img {
+	position: absolute;
+	height: 15%;
+}
+
+span {
+	color: #38D606;
+}
+
+#header > p {
+	text-align: center;
+}
+
+#header {
+	height: 10%;
+	width: 98%;
+	top: .5%;
+	left: 1%;
+	border-top-width: 0;
+}
+
+#call {
+	height: 60%;
+	width: 32%;
+	top: 19.5%;
+	left: 1%;
+}
+
+#order {
+	height: 60%;
+	width: 32%;
+	top: 19.5%;
+	left: 34%;
+}
+
+#get {
+	height: 60%;
+	width: 32%;
+	top: 19.5%;
+	right: .7%;
+}
+
+#footer {
+	height: 10%;
+	width: 98%;
+	bottom: 2%;
+	left: 1%;
+	border-bottom-width: 0;
+}
+
+#intr {
+	left: 1%;
+	top: 12%;
+	height: 6%;
+	width: 98%;
+}
+
+#warn {
+	left: 1%;
+	bottom: 13.5%;
+	height: 5%;
+	width: 98%;
+}
+
+#get, #order, #call {
+	border-top-width: 0;
+	border-bottom-width: 0;
+}
+
+#header, #footer {
+	border-left-width: 0;
+	border-right-width: 0;
+}
